@@ -47,7 +47,7 @@ export default function ServiceDetailPage({ params }: Props) {
       </div>
 
       {/* Hero image */}
-      <div className="relative w-full h-[380px] overflow-hidden">
+      <div className="relative w-full h-[460px] overflow-hidden">
         <Image
           src={service.image}
           alt={`${service.name} — TTens Cleaning Services`}
@@ -55,7 +55,6 @@ export default function ServiceDetailPage({ params }: Props) {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-navy/20" />
       </div>
 
       {/* Body */}

@@ -27,7 +27,7 @@ export const services: Service[] = [
       'Flexible frequency — weekly, fortnightly, or monthly',
       'Easy to reschedule with 24-hour notice',
     ],
-    image: 'https://images.unsplash.com/photo-1527515637462-cff212e69e9e?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=1200&q=80',
   },
   {
     slug:      'deep-clean',
@@ -47,7 +47,7 @@ export const services: Service[] = [
       'Takes 4–8 hours depending on property size',
       'All specialist equipment and products provided',
     ],
-    image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=1200&q=80',
   },
   {
     slug:      'move-in-move-out',
@@ -67,7 +67,7 @@ export const services: Service[] = [
       'Aligned with ARLA tenancy cleaning standards',
       'Available at short notice for tight move-out deadlines',
     ],
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80',
   },
   {
     slug:      'office-commercial',
@@ -107,7 +107,7 @@ export const services: Service[] = [
       'Works directly with builders and project managers',
       'Available same-week for fast project handover',
     ],
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1503387837-b154d5074bd2?auto=format&fit=crop&w=1200&q=80',
   },
   {
     slug:      'carpet-upholstery',
@@ -127,7 +127,7 @@ export const services: Service[] = [
       'Safe for children, pets, and allergy sufferers',
       'Most carpets dry within 2–4 hours of treatment',
     ],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1570958733088-4d5e31e2efb0?auto=format&fit=crop&w=1200&q=80',
   },
 ]
 
