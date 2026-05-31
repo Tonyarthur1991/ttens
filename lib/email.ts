@@ -1,7 +1,5 @@
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 export interface QuoteEmailData {
   service:      string
   propertyType: string
@@ -16,6 +14,8 @@ export interface QuoteEmailData {
 }
 
 export async function sendQuoteEmail(data: QuoteEmailData): Promise<void> {
+  const resend = new Resend(process.env.RESEND_API_KEY)
+
   const rows = [
     ['Service',        data.service],
     ['Property Type',  data.propertyType],
