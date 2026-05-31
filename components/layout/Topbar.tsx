@@ -10,13 +10,13 @@ export default function Topbar() {
       <div className="flex gap-7 items-center">
         <span>Mon–Sat: 7am–8pm</span>
         <a
-          href="tel:08001234567"
+          href="tel:07717375678"
           className="text-white font-extrabold text-sm flex items-center gap-1.5 hover:text-green-light transition-colors"
         >
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
             <path d="M1.5 2C1.5 2 3 0.5 5 3L4 4.5C4 4.5 5 6.5 7.5 7.5L9 6.5C11.5 8.5 10 10 10 10C7.5 12.5 1.5 6.5 1.5 2Z" fill="white"/>
           </svg>
-          0800 123 4567
+          07717 375678
         </a>
       </div>
     </div>

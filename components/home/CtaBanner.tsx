@@ -25,10 +25,10 @@ export default function CtaBanner() {
           </svg>
         </Link>
         <a
-          href="tel:08001234567"
+          href="tel:07717375678"
           className="border-2 border-white/40 text-white font-bold text-[15px] rounded-[9px] px-8 py-4 flex items-center gap-2 hover:border-white/70 transition-colors"
         >
-          Call 0800 123 4567
+          Call 07717 375678
         </a>
       </div>
     </section>

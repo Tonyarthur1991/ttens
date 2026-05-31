@@ -31,7 +31,7 @@ export default function ContactPage() {
 
           <div className="flex flex-col gap-5 mb-8">
             {[
-              { label: 'Phone',   value: '0800 123 4567',    href: 'tel:08001234567' },
+              { label: 'Phone',   value: '07717 375678',    href: 'tel:07717375678' },
               { label: 'Email',   value: 'hello@ttens.co.uk', href: 'mailto:hello@ttens.co.uk' },
               { label: 'Coverage', value: 'Nationwide UK',   href: undefined },
             ].map(c => (

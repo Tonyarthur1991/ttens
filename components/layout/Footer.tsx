@@ -67,7 +67,7 @@ export default function Footer() {
         <div>
           <div className="text-[11px] font-extrabold text-white/90 uppercase tracking-[1.8px] mb-4">Contact</div>
           <div className="flex flex-col gap-3 text-sm text-white/40">
-            <a href="tel:08001234567" className="hover:text-green-light transition-colors">📞 0800 123 4567</a>
+            <a href="tel:07717375678" className="hover:text-green-light transition-colors">📞 07717 375678</a>
             <a href="mailto:hello@ttens.co.uk" className="hover:text-green-light transition-colors">✉ hello@ttens.co.uk</a>
             <span>📍 Nationwide UK Coverage</span>
           </div>

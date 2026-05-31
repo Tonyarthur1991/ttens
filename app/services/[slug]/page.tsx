@@ -1,5 +1,6 @@
 import { notFound }      from 'next/navigation'
 import Link              from 'next/link'
+import Image             from 'next/image'
 import { services, getService, getOtherServices } from '@/lib/services'
 import QuoteForm         from '@/components/ui/QuoteForm'
 import CtaBanner         from '@/components/home/CtaBanner'
@@ -43,6 +44,18 @@ export default function ServiceDetailPage({ params }: Props) {
         >
           Get a Quote for This Service →
         </Link>
+      </div>
+
+      {/* Hero image */}
+      <div className="relative w-full h-[380px] overflow-hidden">
+        <Image
+          src={service.image}
+          alt={`${service.name} — TTens Cleaning Services`}
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-navy/20" />
       </div>
 
       {/* Body */}

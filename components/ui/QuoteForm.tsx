@@ -189,7 +189,7 @@ export default function QuoteForm({ expanded = false, preselectedService = '' }:
 
       {status === 'error' && (
         <p className="text-[13px] text-red-600 text-center mt-3">
-          Something went wrong. Please call us on 0800 123 4567.
+          Something went wrong. Please call us on 07717 375678.
         </p>
       )}
 

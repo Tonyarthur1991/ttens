@@ -45,8 +45,8 @@ export default function QuotePage() {
           </ul>
           <div className="bg-white border border-brand-border rounded-xl p-6">
             <div className="text-[13px] font-bold text-navy mb-3">Prefer to talk?</div>
-            <a href="tel:08001234567" className="text-[20px] font-extrabold text-green hover:underline">
-              0800 123 4567
+            <a href="tel:07717375678" className="text-[20px] font-extrabold text-green hover:underline">
+              07717 375678
             </a>
             <div className="text-[13px] text-brand-muted mt-1">Mon–Fri: 7am–8pm · Sat: 8am–6pm</div>
           </div>
