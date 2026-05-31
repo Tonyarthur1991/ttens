@@ -87,7 +87,7 @@ export default function QuoteForm({ expanded = false, preselectedService = '' }:
         <div className="text-5xl mb-4">✓</div>
         <h3 className="font-heading font-bold text-navy text-xl mb-2">Quote Request Sent!</h3>
         <p className="text-brand-muted text-sm">
-          We'll be in touch within 2 hours. Thank you, {data.name.split(' ')[0]}.
+          We&apos;ll be in touch within 2 hours. Thank you, {data.name.split(' ')[0]}.
         </p>
       </div>
     )
